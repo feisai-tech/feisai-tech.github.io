@@ -16,9 +16,9 @@ const config: Config = {
   },
 
   url: 'https://zhengsaihong.github.io',
-  baseUrl: '/feisai-blog/',
+  baseUrl: '/feisai-tech/',
   organizationName: 'zhengsaihong',
-  projectName: 'feisai-blog',
+  projectName: 'feisai-tech',
 
   onBrokenLinks: 'throw',
 
