@@ -1,0 +1,33 @@
+.features { max-width: 1148px; margin: auto; padding: 3rem 1.5rem 4rem; }
+.latest { display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; padding-bottom: 3rem; margin-bottom: 3rem; border-bottom: 1px solid var(--feisai-border); }
+.label { color: var(--ifm-color-emphasis-700); font-size: .65rem; letter-spacing: .15em; }
+.latestLabel h2 { font-size: 1.5rem; margin: .7rem 0 1rem; }
+.latestLabel a { font-size: .85rem; }
+.latestLabel a span { margin-left: .5rem; }
+.latestPost { padding: 1.5rem 1.7rem; background: var(--feisai-paper); border: 1px solid var(--feisai-border); border-radius: 12px; color: var(--ifm-font-color-base); transition: border-color .15s; }
+.latestPost:hover { color: var(--ifm-font-color-base); text-decoration: none; border-color: var(--ifm-color-primary); }
+.latestPost time { font-size: .75rem; color: var(--ifm-color-emphasis-700); }
+.latestPost h3 { display: flex; justify-content: space-between; align-items: center; gap: 1rem; font-size: 1.3rem; margin: .65rem 0; }
+.latestPost h3 span { font-size: 1rem; color: var(--ifm-color-primary); }
+.latestPost p { font-size: .9rem; color: var(--ifm-color-emphasis-700); line-height: 1.8; margin: 0; }
+.sectionHeading { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 1.7rem; }
+.sectionHeading h2 { font-size: 1.45rem; margin: 0; }
+.sectionHeading > span { color: var(--ifm-color-emphasis-700); font-size: .85rem; }
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.2rem; }
+.card { display: flex; flex-direction: column; padding: 1.7rem; border: 1px solid var(--feisai-border); border-radius: 12px; background: var(--feisai-paper); color: var(--ifm-font-color-base); transition: border-color .15s, transform .15s; }
+.card:hover { text-decoration: none; color: var(--ifm-font-color-base); border-color: var(--ifm-color-primary); transform: translateY(-3px); }
+.cardTop { display: flex; justify-content: space-between; color: var(--ifm-color-emphasis-700); font-size: .7rem; letter-spacing: .1em; margin-bottom: 2rem; }
+.card h3 { font-size: 1.3rem; }
+.card p { color: var(--ifm-color-emphasis-700); line-height: 1.9; font-size: .92rem; flex: 1; margin-bottom: 1.5rem; }
+.action { display: flex; justify-content: space-between; color: var(--ifm-color-primary); font-size: .85rem; font-weight: 600; }
+
+@media (max-width: 760px) {
+  .features { padding: 2.5rem 1.5rem; }
+  .latest { grid-template-columns: 1fr; gap: 1.25rem; margin-bottom: 2.5rem; padding-bottom: 2.5rem; }
+  .latestLabel { display: grid; grid-template-columns: 1fr auto; align-items: baseline; }
+  .latestLabel .label { grid-column: 1 / -1; }
+  .latestLabel h2 { margin-bottom: 0; }
+  .sectionHeading { flex-direction: column; }
+  .grid { grid-template-columns: 1fr; }
+  .cardTop { margin-bottom: 1.5rem; }
+}

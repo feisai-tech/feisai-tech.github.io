@@ -1,0 +1,54 @@
+:root {
+  --ifm-color-primary: #28634e;
+  --ifm-color-primary-dark: #245946;
+  --ifm-color-primary-darker: #225442;
+  --ifm-color-primary-darkest: #1c4537;
+  --ifm-color-primary-light: #2c6d56;
+  --ifm-color-primary-lighter: #2e725a;
+  --ifm-color-primary-lightest: #348166;
+  --ifm-background-color: #f8f7f3;
+  --ifm-font-color-base: #24352e;
+  --ifm-color-emphasis-700: #626e66;
+  --ifm-font-family-base: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --ifm-navbar-background-color: var(--ifm-background-color);
+  --ifm-navbar-shadow: none;
+  --ifm-code-font-size: 95%;
+  --feisai-paper: #fefdfb;
+  --feisai-muted: #e9eee5;
+  --feisai-border: #dce1d8;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, .1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #8ac5a8;
+  --ifm-color-primary-dark: #70b795;
+  --ifm-color-primary-darker: #64b08c;
+  --ifm-color-primary-darkest: #4c9772;
+  --ifm-color-primary-light: #a4d3bb;
+  --ifm-color-primary-lighter: #b0dac4;
+  --ifm-color-primary-lightest: #d7eddf;
+  --ifm-background-color: #18211d;
+  --ifm-font-color-base: #e5ebe4;
+  --ifm-color-emphasis-700: #aab9af;
+  --feisai-paper: #202c25;
+  --feisai-muted: #2c3a30;
+  --feisai-border: #39473f;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, .3);
+}
+
+.navbar { border-bottom: 1px solid var(--feisai-border); }
+.navbar__inner { max-width: 1100px; margin: auto; }
+.navbar__brand { margin-right: 2rem; }
+.navbar__title { font-size: 1.2rem; letter-spacing: -.04em; }
+.navbar__link { font-size: .92rem; }
+.navbar__link--active { text-decoration: underline; text-underline-offset: .5rem; text-decoration-thickness: 2px; }
+.footer { background: var(--feisai-muted); border-top: 1px solid var(--feisai-border); }
+.footer .container { max-width: 1100px; }
+.footer__title { font-size: .9rem; }
+.footer__link-item, .footer__copyright { font-size: .85rem; }
+.footer__copyright { color: var(--ifm-color-emphasis-700); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--ifm-color-primary); outline-offset: 4px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+}
