@@ -15,10 +15,10 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  url: 'https://zhengsaihong.github.io',
-  baseUrl: '/feisai-tech/',
-  organizationName: 'zhengsaihong',
-  projectName: 'feisai-tech',
+  url: 'https://feisai-tech.github.io',
+  baseUrl: '/',
+  organizationName: 'feisai-tech',
+  projectName: 'feisai-tech.github.io',
 
   onBrokenLinks: 'throw',
 

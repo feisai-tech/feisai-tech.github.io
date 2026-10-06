@@ -2,7 +2,7 @@
 
 Personal blog and documentation built with the official Docusaurus classic template.
 
-Site: https://zhengsaihong.github.io/feisai-tech/
+Site: https://feisai-tech.github.io/
 
 ## Local development
 
@@ -13,7 +13,7 @@ npm ci
 npm start
 ```
 
-Open http://localhost:3000/feisai-tech/.
+Open http://localhost:3000/.
 
 ## Write and edit
 
