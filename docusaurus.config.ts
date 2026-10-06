@@ -1,6 +1,5 @@
 import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config, Plugin} from '@docusaurus/types';
-import type {BlogContent} from '@docusaurus/plugin-content-blog';
+import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -57,18 +56,6 @@ const config: Config = {
   ],
 
   plugins: [
-    function latestPost(): Plugin {
-      return {
-        name: 'latest-post',
-        allContentLoaded({allContent, actions}) {
-          const content = allContent['docusaurus-plugin-content-blog'].default as BlogContent;
-          actions.setGlobalData(content.blogPosts
-            .filter(({metadata}) => !metadata.unlisted)
-            .slice(0, 1)
-            .map(({metadata}) => metadata));
-        },
-      };
-    },
     ['@docusaurus/plugin-content-docs', {
       id: 'tutorial',
       path: 'docs/tutorial',

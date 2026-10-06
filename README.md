@@ -27,7 +27,6 @@ Open http://localhost:3000/.
 
 ```bash
 npm run typecheck
-node tests/latest-post.mjs
 npm run build
 ```
 
