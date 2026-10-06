@@ -13,6 +13,21 @@ docusaurus:
   permalink: /docusaurus
   description: Docusaurus tag description
 
+frp:
+  label: frp
+  permalink: /frp
+  description: frp 内网穿透教程
+
+Ubuntu:
+  label: Ubuntu
+  permalink: /ubuntu
+  description: Ubuntu 服务器教程
+
+Windows:
+  label: Windows
+  permalink: /windows
+  description: Windows 教程
+
 hola:
   label: Hola
   permalink: /hola
