@@ -1,7 +1,6 @@
 ---
 title: frp 内网穿透教程：Ubuntu 服务器 + Windows 11
 description: 通过一台有公网 IP 的 Ubuntu 服务器，让没有公网 IP 的 Windows 电脑可以被外部访问。
-authors: [zhengsaihong]
 tags: [frp, Ubuntu, Windows]
 ---
 

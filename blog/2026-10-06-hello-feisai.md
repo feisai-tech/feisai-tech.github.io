@@ -1,7 +1,6 @@
 ---
 title: 你好，这里是 Feisai
 description: 给日常、想法和所学，留一个自己的位置。
-authors: [feisai]
 ---
 
 今天，给自己的文字搭了一个小空间。

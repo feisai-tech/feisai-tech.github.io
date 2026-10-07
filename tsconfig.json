@@ -4,6 +4,7 @@
 {
   "extends": "@docusaurus/tsconfig",
   "compilerOptions": {
+    "allowImportingTsExtensions": true,
     "baseUrl": ".",
     "ignoreDeprecations": "6.0",
     "strict": true
